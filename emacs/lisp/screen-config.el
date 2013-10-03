@@ -46,10 +46,18 @@
 	   (font-lock-type-face ((t (:foreground "#cae682"))))
 	   (font-lock-variable-name-face ((t (:foreground "#cae682"))))
 	   (font-lock-warning-face ((t (:foreground "#e5786d" :bold t))))
+	   (paren-face-match-light ((t (:background "#857b6f"))))
 	   (show-paren-match-face ((t (:foreground "#f6f3e8" :background "#857b6f" :bold t))))
 	   (show-paren-mismatch-face ((t (:foreground "#e5786d" :background "#857b6f" :bold t)))))))
 
-      (color-theme-wombat)
+      ;;(color-theme-wombat)
+      (color-theme-calm-forest)
+
+      (defface highlight-current-line-face
+	'((t (:background "#2d2d2d")))
+	"Face used to highlight current line."
+	:group 'highlight-current-line)
+
 
       (require 'highlight-current-line)
       (highlight-current-line-on t)
@@ -67,7 +75,7 @@
 					  (height . 60)) default-frame-alist))
 
       (cond ((eq window-system 'w32) (setq default-frame-alist (append '((font . "fixed613")) default-frame-alist)))
-	    ((eq window-system 'x) (setq default-frame-alist (append '((font . "fixed")) default-frame-alist))))
+	    ((eq window-system 'x) (setq default-frame-alist (append '((font . "-misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso8859-1")) default-frame-alist))))
 
       ;; Spruce up the title bar and mode line
       (setq frame-title-format '("%b (" system-name ")"))))

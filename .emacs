@@ -38,7 +38,7 @@
 (load-library "shell-config")			;; shell config
 (load-library "skeleton-config")		;; skeleton config
 (load-library "xml-config")			;; XML mode config
-(load-library "xcscope")                        ;;cscope config
+(load-library "xcscope")			;;cscope config
 
 (server-start)					;; start the emacs server running
 

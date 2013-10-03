@@ -10,7 +10,8 @@
     (setenv "P4CONFIG" ".p4env"))
 
 (if (not (getenv "P4USER"))
-    (setenv "P4USER" "DJoyner"))
+    (setenv "P4USER" "abhat"))
+
 
 ;;; end ~/emacs/lisp/p4-config.el
 
