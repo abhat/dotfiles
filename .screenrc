@@ -1,0 +1,29 @@
+escape ^z^z
+defscrollback 100000
+startup_message off
+#terminfo and termcap for nice 256 color terminal
+#allow bold colors - necessary for some reason
+#attrcolor b ".I"
+#tell screen how to set colors. AB=background, AF=foreground
+#termcapinfo xterm 'Co#256:AB=\E[49;5;%dm:AF=\E[38;5;%dm'
+#erase background with current bg color
+#defbce "on"
+
+bind -c cmd1 0 select 10
+bind -c cmd1 1 select 11
+bind -c cmd1 2 select 12
+bind - command -c cmd1
+vbell off
+shell -$SHELL
+hardstatus on
+hardstatus alwayslastline
+hardstatus string '%{=b kR}[%{-b}%{W} %H: %l %{b R}][%= %{= kw}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{= kw}%?%+Lw%?%?%= %{=b R}]%{=b R}[%{-b W} %d %M %c %{=b R}]%{W}'
+bind ^g screen -t "Google" links www.google.com
+bind ^e screen -t "Emacs" emacs 
+bind ^v screen -t "vi" vi 
+
+#screen configurations for pre-created terminals
+
+screen -ln -t "Home" 0 
+screen -ln -t "Home[2]" 1
+select 0
