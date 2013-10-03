@@ -8,13 +8,13 @@
   "/// @file" \n
   "/// @brief " _ \n
   "///" \n
-  "///  Copyright (c) " (format-time-string "%Y" (current-time)) " by Spirent Communications Inc." \n
+  "///  Copyright (c) " (format-time-string "%Y" (current-time)) " by Your Company Inc." \n
   "///  All Rights Reserved." \n
   "///" \n
-  "///  This software is confidential and proprietary to Spirent Communications Inc." \n
+  "///  This software is confidential and proprietary to Your Company Inc." \n
   "///  No part of this software may be reproduced, transmitted, disclosed or used" \n
   "///  in violation of the Software License Agreement without the expressed" \n
-  "///  written consent of Spirent Communications Inc." \n
+  "///  written consent of Your Company Inc." \n
   "///" \n
   "///  Version: $Id: $" \n
   "///" \n
@@ -31,13 +31,13 @@
   "/// @file" \n
   "/// @brief " _ \n
   "///" \n
-  "///  Copyright (c) " (format-time-string "%Y" (current-time)) " by Spirent Communications Inc." \n
+  "///  Copyright (c) " (format-time-string "%Y" (current-time)) " by Your Company Inc." \n
   "///  All Rights Reserved." \n
   "///" \n
-  "///  This software is confidential and proprietary to Spirent Communications Inc." \n
+  "///  This software is confidential and proprietary to Your Company Inc." \n
   "///  No part of this software may be reproduced, transmitted, disclosed or used" \n
   "///  in violation of the Software License Agreement without the expressed" \n
-  "///  written consent of Spirent Communications Inc." \n
+  "///  written consent of Your Company Inc." \n
   "///" \n
   "///  Version: $Id: $" \n
   "///" \n
