@@ -2,6 +2,10 @@
 
 (require 'cl)
 
+(setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
+                         ("marmalade" . "https://marmalade-repo.org/packages/")
+                         ("melpa" . "http://melpa.org/packages/")))
+
 ;; I keep everything under ~/emacs
 (defvar emacs-root (cond ((eq system-type 'cygwin) "/home/abhat/")
 			 ((eq system-type 'gnu/linux) "/home/abhat/")
@@ -20,6 +24,9 @@
   (add-path "emacs/site-lisp/nxml-mode")	;; http://www.thaiopensource.com/nxml-mode
   (add-path "emacs/site-lisp/ruby-mode")	;; http://svn.ruby-lang.org/repos/ruby/trunk/misc/ruby-mode
   (add-path "emacs/site-lisp/speedbar")		;; http://cedet.sourceforge.net/speedbar.shtml
+  (add-path "emacs/site-lisp/dash")             ;; elpa package repository download
+  (add-path "emacs/site-lisp/flycheck")         ;; elpa package repository download
+  (add-path "gocode/src/github.com/dougm/goflymake") ;; flymake for go (uses flycheck).
   )
 
 ;; The remainder of my config is in libraries
@@ -38,8 +45,15 @@
 (load-library "shell-config")			;; shell config
 (load-library "skeleton-config")		;; skeleton config
 (load-library "xml-config")			;; XML mode config
-(load-library "xcscope")			;;cscope config
-
+(load-library "xcscope")			;; cscope config
+(load-library "flymake")                        ;; flymake
+(load-library "markdown-mode")                  ;; markdown-mode http://jblevins.org/projects/markdown-mode/markdown-mode.el
+(load-library "flycheck-global")                ;; enable flycheck globally
+(load-library "go-config")                      ;; go config 
+(load-library "flycheck-autoloads")
+(load-library "go-flymake")
+(load-library "go-flycheck")
+(load-library "sudo-ext")                       ;; sudo extension emacs wiki
 (server-start)					;; start the emacs server running
 
 ;;; end ~/.emacs
