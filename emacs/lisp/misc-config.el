@@ -24,6 +24,7 @@
       ibuffer-saved-filter-groups '(("default"
 				     ("c" (mode . c-mode))
 				     ("c++" (mode . c++-mode))
+				     ("go" (mode . go-mode))
 				     ("python" (mode . python-mode))
 				     ("haskell" (mode . haskell-mode))
 				     ("emacs" (or (name . "^\\*scratch\\*$") (name . "^\\*Messages\\*$"))))
