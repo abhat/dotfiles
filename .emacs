@@ -26,7 +26,9 @@
   (add-path "emacs/site-lisp/speedbar")		;; http://cedet.sourceforge.net/speedbar.shtml
   (add-path "emacs/site-lisp/dash")             ;; elpa package repository download
   (add-path "emacs/site-lisp/flycheck")         ;; elpa package repository download
+  (add-path "emacs/site-lisp/company")         ;; elpa package repository download for company plugin
   (add-path "gocode/src/github.com/dougm/goflymake") ;; flymake for go (uses flycheck).
+  (add-path "gocode/src/github.com/nsf/gocode/emacs-company") ;; gocode for go
   )
 
 ;; The remainder of my config is in libraries
@@ -48,11 +50,12 @@
 (load-library "xcscope")			;; cscope config
 (load-library "flymake")                        ;; flymake
 (load-library "markdown-mode")                  ;; markdown-mode http://jblevins.org/projects/markdown-mode/markdown-mode.el
-(load-library "flycheck-global")                ;; enable flycheck globally
+;;(load-library "flycheck-global")                ;; enable flycheck globally
 (load-library "go-config")                      ;; go config 
-(load-library "flycheck-autoloads")
+;;(load-library "flycheck-autoloads")
 (load-library "go-flymake")
 (load-library "go-flycheck")
+(load-library "go-code")
 (load-library "sudo-ext")                       ;; sudo extension emacs wiki
 (server-start)					;; start the emacs server running
 
