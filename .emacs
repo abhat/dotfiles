@@ -1,11 +1,16 @@
 ;;; ~/.emacs
 
 (require 'cl)
-
-(setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
-                         ("marmalade" . "https://marmalade-repo.org/packages/")
-                         ("melpa" . "http://melpa.org/packages/")))
-
+(require 'package) ;; You might already have this line
+(let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
+                    (not (gnutls-available-p))))
+       (url (concat (if no-ssl "http" "https") "://stable.melpa.org/packages/")))
+  (add-to-list 'package-archives (cons "stable-melpa" url) t))
+(when (< emacs-major-version 24)
+  ;; For important compatibility libraries like cl-lib
+  (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
+(package-initialize) ;; You might already have this line
+(elpy-enable)
 ;; I keep everything under ~/emacs
 (defvar emacs-root (cond ((eq system-type 'cygwin) "/home/abhat/")
 			 ((eq system-type 'gnu/linux) "/home/abhat/")
@@ -24,11 +29,7 @@
   (add-path "emacs/site-lisp/nxml-mode")	;; http://www.thaiopensource.com/nxml-mode
   (add-path "emacs/site-lisp/ruby-mode")	;; http://svn.ruby-lang.org/repos/ruby/trunk/misc/ruby-mode
   (add-path "emacs/site-lisp/speedbar")		;; http://cedet.sourceforge.net/speedbar.shtml
-  (add-path "emacs/site-lisp/dash")             ;; elpa package repository download
-  (add-path "emacs/site-lisp/flycheck")         ;; elpa package repository download
-  (add-path "emacs/site-lisp/company")         ;; elpa package repository download for company plugin
-  (add-path "gocode/src/github.com/dougm/goflymake") ;; flymake for go (uses flycheck).
-  (add-path "gocode/src/github.com/nsf/gocode/emacs-company") ;; gocode for go
+  (add-path "emacs/site-list/yaml-mode")        ;; http://github.com/yoshiki/yaml-mode
   )
 
 ;; The remainder of my config is in libraries
@@ -40,7 +41,7 @@
 (load-library "git-config")			;; Git mode config
 ;;(load-library "irc-config")			;; IRC client config
 (load-library "misc-config")			;; miscellaneous one-off config settings
-(load-library "p4-config")			;; Perforce config
+;;(load-library "p4-config")			;; Perforce config
 (load-library "ruby-config")			;; Ruby mode config
 (load-library "scons-config")			;; scons-related config
 (load-library "screen-config")			;; window config
@@ -48,15 +49,20 @@
 (load-library "skeleton-config")		;; skeleton config
 (load-library "xml-config")			;; XML mode config
 (load-library "xcscope")			;; cscope config
-(load-library "flymake")                        ;; flymake
-(load-library "markdown-mode")                  ;; markdown-mode http://jblevins.org/projects/markdown-mode/markdown-mode.el
-;;(load-library "flycheck-global")                ;; enable flycheck globally
-(load-library "go-config")                      ;; go config 
-;;(load-library "flycheck-autoloads")
-(load-library "go-flymake")
-(load-library "go-flycheck")
-(load-library "go-code")
-(load-library "sudo-ext")                       ;; sudo extension emacs wiki
+(load-library "yaml-config")                    ;; YAML config
 (server-start)					;; start the emacs server running
 
 ;;; end ~/.emacs
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(grep-command "grep -nH -i -r ")
+ '(package-selected-packages (quote (elpy company-irony-c-headers))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

@@ -31,4 +31,12 @@
 					   (define-key c-mode-base-map "\C-m" 'c-context-line-break)
 					   (c-toggle-auto-hungry-state t))))
 
+(require 'company)
+(add-hook 'global-init-hook 'global-company-mode)
+(add-to-list 'company-backends 'company-irony-c-headers)
+;;;(add-hook 'c++-mode-hook 'irony-mode)
+;;;(add-hook 'c-mode-hook 'irony-mode)
+;;;(add-hook 'objc-mode-hook 'irony-mode)
+
+;;;(add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
 ;;; end ~/emacs/lisp/cc-config.el

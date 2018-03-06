@@ -86,15 +86,4 @@
       column-number-mode t
       scroll-step 1)
 
-;;;Font size on "Fixed size" fonts in emacs cannot be changed. Duh. In order to change the font for the current frame, use
-
-;;;M-x set-frame-font NimbusMonoL
-
-;;;Then use C-x, C-+ to increase the font size. Nimbus Mono L is a variable sized font.
-
-;;;To reset to the default font, again use 
-
-;;;M-x set-frame-font -misc-fixed-medium-r-semicondensed--13-120-75-75-c-60-iso8859-1
-
 ;;; end ~/emacs/lisp/screen-config.el
-
