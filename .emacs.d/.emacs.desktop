@@ -2,557 +2,390 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Tue Mar  6 12:47:16 2018
-;; Desktop file format version 206
-;; Emacs version 26.0.50.2
+;; Created Fri Jun 21 10:45:46 2019
+;; Desktop file format version 208
+;; Emacs version 25.1.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (23198 65108 161696 9000) (desktop . "208") "abhat@abhat-desktop" nil nil ((((minibuffer . t) (tty-type . "screen") (tty . "/dev/tty") (display-type . color) (background-mode . dark) (foreground-color . "unspecified-fg") (cursor-color . "white") (menu-bar-lines . 0) (tool-bar-lines . 0) (vertical-scroll-bars) (background-color . "unspecified-bg") (font . "tty") (height . 51) (width . 189) (modeline . t) (unsplittable) (frameset--id . "D91C-3382-AC80-220C") (frameset--mini t)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 4) (min-pixel-width . 20) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 4) (min-pixel-height-safe . 1) (min-pixel-width-safe . 4)) hc (pixel-width . 189) (pixel-height . 50) (total-width . 189) (total-height . 50) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 95) (pixel-height . 50) (total-width . 95) (total-height . 50) (normal-height . 1.0) (normal-width . 0.5) (buffer "abhat" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 2230) (start . 1))) (leaf (last . t) (pixel-width . 94) (pixel-height . 50) (total-width . 94) (total-height . 50) (normal-height . 1.0) (normal-width . 0.5) (buffer "*Warnings*" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 112) (start . 1)))))])
+(setq desktop-saved-frameset [frameset 1 (23820 60826 891079 974000) (desktop . "208") "anbhat@atman-centos" nil nil ((((tty-type . "screen") (tty . "/dev/tty") (display-type . color) (background-mode . dark) (foreground-color . "unspecified-fg") (cursor-color . "white") (menu-bar-lines . 0) (tool-bar-lines . 0) (vertical-scroll-bars) (background-color . "unspecified-bg") (font . "tty") (height . 49) (width . 191) (modeline . t) (unsplittable) (frameset--id . "D4BA-17CA-2AE9-38E6") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 191) (pixel-height . 48) (total-width . 191) (total-height . 48) (normal-height . 1.0) (normal-width . 1.0) (buffer "kubefed_controller.go" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1372) (start . 1))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("elpy" "0x4e1f" "process_natt(" "reg2=0x0" "sc" "reg2=0x1" "0x4e1f" "neighbor_nexthop_delete" "aead" "data" "inet" "vrf_ofport_inc_" "vrf_ofport_inc_flow" "handle_alu_flow_mod" "ofp10_match" "alu_action_match"))
+(setq search-ring '("is" "go-con" "Load(" "Load" "WithName" "autocomplete" "ac-modes"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("~/emacs/site-lisp/" "~/nuage/docker/docker/nuage_docker.py" "~/.emacs" "~/nuage/vrs/VCA/vrs/lib/libvrs-core/vrs-ofproto-neighbor.c" "~/transfer/before_l3_deprovision.log" "~/transfer/after_l3_deprovision.log" "/usr/src/linux-headers-3.13.0-36/" "/usr/src/linux-headers-3.13.0-36/include/" "/usr/src/linux-headers-3.13.0-36/include/net/esp.h" "~/nuage/vrs/VCA/vrs/lib/libvrs-perfmon/perfmon-db-api.c" "~/nuage/vrs/VCA/vrs/lib/libvrs-perfmon/automake.mk" "~/nuage/vrs/VCA/ovs/datapath/vport-vxlan.c" "~/nuage/vrs/VCA/" "~/emacs/lisp/cc-config.el" "~/.emacs" "~/nuage/vrs/VCA/vrs/lib/libvrs-core/vrs-ofproto-vrf.c" "~/emacs/lisp/cc-config.el" "~/nuage/vrs/VCA/vrs/lib/libvrs-core/vrs-ofproto-evpn.c" "~/nuage/vrs/VCA/vrs/include/openflow/vrs-ext.h" "~/nuage/vrs/VCA/vrs/lib/libvrs-core/vrs-ofproto-vrf.c" "~/nuage/vrs/VCA/vrs/lib/libvrs-core/vrs-util.h" "~/nuage/vrs/VCA/vrs/lib/libvrs-core/vir-events.h" "~/mesos/" "~/nuage/vrs/VCA/vrs/lib/" "~/nuage/vrs/VCA/vrs/lib/libvrs-vswitchd/bridge.c" "~/nuage/vrs/VCA/vrs/utilities/vrs-lib.in" "~/nuage/vrs/VCA/" "~/nuage/vrs/VCA/vrs/" "~/nuage/vrs/VCA/vrs" "~/nuage/vrs/VCA/vrs/" "~/nuage/vrs/VCA/vrs/lib/libvrs-core/vrs-ofproto-vrf.c" "~/nuage/vrs/VCA/vrs/" "~/nuage/vrs/VCA/vrs/include/vrs-ofp-util.h"))
+(setq file-name-history '("~/emacs/lisp/dired-config.el" "~/.emacs" "~/gocode/src/github.com/openshift/kubefed-operator/vendor/sigs.k8s.io/controller-tools/cmd/crd/main.go" "~/gocode/src/github.com/rogpeppe/godef/packages.go" "~/gocode/src/github.com/rogpeppe/godef/README" "~/gocode/src/github.com/rogpeppe/godef/go/parser/parser.go" "~/gocode/src/github.com/rogpeppe/godef/godef_test.go" "~/gocode/src/github.com/openshift/kubefed-operator/pkg/controller/kubefed/kubefed_controller.go" "~/emacs/lisp/go-config.el" "~/emacs/lisp/yaml-config.el"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
-(desktop-create-buffer 206
+(desktop-create-buffer 208
+  "/home/anbhat/gocode/src/github.com/openshift/kubefed-operator/pkg/controller/kubefed/kubefed_controller.go"
+  "kubefed_controller.go"
+  'go-mode
+  '(helm-mode auto-complete-mode)
+  1372
+  '(1308 nil)
   nil
-  "abhat"
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1308 643 1054 1056))))
+
+(desktop-create-buffer 208
+  "/home/anbhat/gocode/src/github.com/openshift/kubefed-operator/vendor/github.com/jcrossley3/manifestival/manifestival.go"
+  "manifestival.go"
+  'go-mode
+  '(helm-mode auto-complete-mode)
+  1098
+  '(1099 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1098))))
+
+(desktop-create-buffer 208
+  "/home/anbhat/gocode/src/github.com/openshift/kubefed-operator/vendor/sigs.k8s.io/controller-tools/cmd/crd/cmd/root.go"
+  "root.go"
+  'go-mode
+  '(helm-mode auto-complete-mode)
+  1166
+  '(1124 nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/anbhat/gocode/src/github.com/spf13/cobra/command.go"
+  "command.go"
+  'go-mode
+  '(helm-mode auto-complete-mode)
+  22813
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/anbhat/emacs/lisp/ekeys.el"
+  "ekeys.el"
+  'emacs-lisp-mode
+  '(helm-mode)
+  145
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "controller-runtime"
   'dired-mode
-  nil
-  2230
+  '(helm-mode)
+  482
   '(nil nil)
   t
-  '("/home/abhat/")
-  '((buffer-display-time 23198 65017 777529 598000)))
+  '("/home/anbhat/gocode/src/github.com/openshift/kubefed-operator/vendor/sigs.k8s.io/controller-runtime/")
+  nil
+  '((mark-ring nil)))
 
-(desktop-create-buffer 206
-  nil
-  ".emacs.d"
-  'dired-mode
-  nil
-  170
-  '(nil nil)
-  t
-  '("/home/abhat/.emacs.d/")
-  '((buffer-display-time 23198 65007 521184 453000)))
-
-(desktop-create-buffer 206
-  nil
-  "elpa"
-  'dired-mode
-  nil
-  173
-  '(nil nil)
-  t
-  '("/home/abhat/.emacs.d/elpa/")
-  '((buffer-display-time 23198 65001 826166 63000)))
-
-(desktop-create-buffer 206
+(desktop-create-buffer 208
   nil
   "emacs"
   'dired-mode
-  nil
-  165
+  '(helm-mode)
+  223
   '(nil nil)
   t
-  '("/home/abhat/emacs/")
-  '((buffer-display-time 23198 64987 657807 348000)))
+  '("/home/anbhat/emacs/")
+  nil
+  '((mark-ring nil)))
 
-(desktop-create-buffer 206
-  nil
-  "manuals"
-  'dired-mode
-  nil
-  179
+(desktop-create-buffer 208
+  "/home/anbhat/emacs/lisp/misc-config.el"
+  "misc-config.el"
+  'emacs-lisp-mode
+  '(helm-mode)
+  1227
   '(nil nil)
-  t
-  '("/home/abhat/emacs/manuals/")
-  '((buffer-display-time 23198 64986 393673 712000)))
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring nil)))
 
-(desktop-create-buffer 206
-  nil
-  "site-lisp"
-  'dired-mode
-  nil
-  178
-  '(nil nil)
-  t
-  '("/home/abhat/emacs/site-lisp/")
-  '((buffer-display-time 23198 64973 401445 961000)))
-
-(desktop-create-buffer 206
-  nil
-  "lisp"
-  'dired-mode
-  nil
-  171
-  '(nil nil)
-  t
-  '("/home/abhat/emacs/lisp/")
-  '((buffer-display-time 23198 64966 627040 110000)))
-
-(desktop-create-buffer 206
-  "/usr/share/openvswitch/scripts/ovs-lib"
-  "ovs-lib"
-  'text-mode
-  nil
+(desktop-create-buffer 208
+  "/home/anbhat/emacs/lisp/dired-config.el"
+  "dired-config.el"
+  'emacs-lisp-mode
+  '(helm-mode)
   1
   '(nil nil)
-  t
   nil
-  '((buffer-display-time 23198 64926 185849 107000) (buffer-file-coding-system . undecided-unix)))
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring nil)))
 
-(desktop-create-buffer 206
-  "/home/abhat/nuage/docker/docker/nuage_docker.py"
-  "nuage_docker.py"
-  'python-mode
-  '(eldoc-mode elpy-mode company-mode flymake-mode highlight-indentation-mode yas-minor-mode)
-  2645
-  '(nil nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23198 64910 383947 298000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/etc/init.d/nuage-openvswitch-switch"
-  "nuage-openvswitch-switch"
-  'sh-mode
-  nil
-  985
-  '(nil nil)
-  t
-  nil
-  '((buffer-display-time 23198 64907 907968 259000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/abhat/nuage/docker/docker/README.md"
-  "README.md"
-  'text-mode
-  nil
-  3423
-  '(nil nil)
-  nil
-  nil
-  '((buffer-display-time 23198 64863 688283 844000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/abhat/.emacs"
+(desktop-create-buffer 208
+  "/home/anbhat/.emacs"
   ".emacs"
   'emacs-lisp-mode
+  '(helm-mode)
+  2218
+  '(2202 nil)
   nil
-  574
-  '(nil nil)
   nil
-  nil
-  '((buffer-display-time 23198 64845 424348 873000) (buffer-file-coding-system . undecided-unix)))
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring (2120 2205 3813))))
 
-(desktop-create-buffer 206
-  "/home/abhat/transfer/ovs-log-l3-l2"
-  "ovs-log-l3-l2"
-  'text-mode
+(desktop-create-buffer 208
   nil
-  389
-  '(28061 nil)
-  nil
-  nil
-  '((buffer-display-time 23198 64841 557643 626000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/abhat/transfer/after_l3_deprovision.log"
-  "after_l3_deprovision.log"
-  'text-mode
-  nil
-  2447
-  '(2155 nil)
-  nil
-  nil
-  '((buffer-display-time 23198 64741 988513 720000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/abhat/nuage/vrs/VCA/vrs/lib/libvrs-core/vrs-ofproto-neighbor.c"
-  "vrs-ofproto-neighbor.c"
-  'c-mode
-  '(abbrev-mode)
-  1
-  '(nil nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23198 64742 355369 25000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/abhat/nuage/vrs/VCA/vrs/lib/libvrs-core/vrs-ofproto-vrf.c"
-  "vrs-ofproto-vrf.c"
-  'c-mode
-  '(abbrev-mode irony-mode)
-  261579
-  '(261579 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23198 64742 762257 501000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/abhat/transfer/before_l3_deprovision.log"
-  "before_l3_deprovision.log"
-  'text-mode
-  nil
-  4717
-  '(5990 nil)
-  nil
-  nil
-  '((buffer-display-time 23198 64742 803005 872000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/usr/src/linux-headers-3.13.0-36/include/net/xfrm.h"
-  "xfrm.h"
-  'c++-mode
-  '(abbrev-mode)
-  47490
-  '(6238 nil)
-  t
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23198 64743 21151 395000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/usr/src/linux-headers-3.13.0-36/include/linux/security.h"
-  "security.h"
-  'c++-mode
-  '(abbrev-mode)
-  3806
-  '(3816 nil)
-  t
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23198 64743 259372 140000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  nil
-  "linux-headers-3.13.0-36"
+  "sigs.k8s.io"
   'dired-mode
-  nil
-  604
+  '(helm-mode)
+  281
   '(nil nil)
   t
-  '("/usr/src/linux-headers-3.13.0-36/")
-  '((buffer-display-time 23198 64743 298111 53000)))
+  '("/home/anbhat/gocode/src/github.com/openshift/kubefed-operator/vendor/sigs.k8s.io/")
+  nil
+  '((mark-ring nil)))
 
-(desktop-create-buffer 206
+(desktop-create-buffer 208
+  "/home/anbhat/gocode/src/github.com/openshift/kubefed-operator/vendor/sigs.k8s.io/controller-tools/cmd/crd/main.go"
+  "main.go"
+  'go-mode
+  '(helm-mode auto-complete-mode)
+  649
+  '(657 nil)
   nil
-  "linux"
-  'dired-mode
   nil
-  23523
-  '(196 nil)
-  t
-  '("/usr/src/linux-headers-3.13.0-36/include/linux/")
-  '((buffer-display-time 23198 64743 559308 633000)))
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (657))))
 
-(desktop-create-buffer 206
-  nil
-  "include"
-  'dired-mode
-  nil
-  708
-  '(nil nil)
-  t
-  '("/usr/src/linux-headers-3.13.0-36/include/")
-  '((buffer-display-time 23198 64743 614225 80000)))
-
-(desktop-create-buffer 206
-  nil
-  "net"
-  'dired-mode
-  nil
-  194
-  '(nil nil)
-  t
-  '("/usr/src/linux-headers-3.13.0-36/include/net/")
-  '((buffer-display-time 23198 64743 662721 272000)))
-
-(desktop-create-buffer 206
-  nil
-  "9p"
-  'dired-mode
-  nil
-  193
-  '(nil nil)
-  t
-  '("/usr/src/linux-headers-3.13.0-36/include/net/9p/")
-  '((buffer-display-time 23198 64743 697092 748000)))
-
-(desktop-create-buffer 206
-  "/usr/src/linux-headers-3.13.0-36/include/crypto/cryptd.h"
-  "cryptd.h"
-  'c++-mode
-  '(abbrev-mode)
-  1
-  '(nil nil)
-  t
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23198 64743 779517 577000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  nil
-  "crypto"
-  'dired-mode
-  nil
-  845
-  '(nil nil)
-  t
-  '("/usr/src/linux-headers-3.13.0-36/include/crypto/")
-  '((buffer-display-time 23198 64743 814938 127000)))
-
-(desktop-create-buffer 206
-  "/usr/src/linux-headers-3.13.0-36/include/net/esp.h"
-  "esp.h"
-  'c++-mode
-  '(abbrev-mode)
-  1
-  '(nil nil)
-  t
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23198 64743 852008 152000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/abhat/nuage/vrs/VCA/ovs/datapath/vport-vxlan.c"
-  "vport-vxlan.c"
-  'c-mode
-  '(abbrev-mode)
-  2396
-  '(nil nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23198 64743 915297 859000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/abhat/nuage/vrs/VCA/vrs/lib/libvrs-perfmon/perfmon-db-api.c"
-  "perfmon-db-api.c"
-  'c-mode
-  '(abbrev-mode)
-  10214
-  '(nil nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23198 64744 8746 413000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/abhat/nuage/vrs/VCA/vrs/lib/libvrs-perfmon/automake.mk"
-  "automake.mk"
-  'makefile-gmake-mode
-  nil
-  1
-  '(nil nil)
-  nil
-  nil
-  '((indent-tabs-mode . t) (buffer-display-time 23198 64744 221634 136000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  nil
-  "libvrs-core"
-  'dired-mode
-  nil
-  5613
-  '(nil nil)
-  t
-  '("/home/abhat/nuage/vrs/VCA/vrs/lib/libvrs-core/")
-  '((buffer-display-time 23198 64744 277862 195000)))
-
-(desktop-create-buffer 206
-  nil
-  "lib"
-  'dired-mode
-  nil
-  292
-  '(nil nil)
-  t
-  '("/home/abhat/nuage/vrs/VCA/vrs/lib/")
-  '((buffer-display-time 23198 64744 312580 375000)))
-
-(desktop-create-buffer 206
-  nil
-  "vrs"
-  'dired-mode
-  nil
-  503
-  '(nil nil)
-  t
-  '("/home/abhat/nuage/vrs/VCA/vrs/")
-  '((buffer-display-time 23198 64744 345469 967000)))
-
-(desktop-create-buffer 206
-  nil
-  "VCA"
-  'dired-mode
-  nil
-  2374
-  '(nil nil)
-  t
-  '("/home/abhat/nuage/vrs/VCA/")
-  '((buffer-display-time 23198 64744 385889 582000)))
-
-(desktop-create-buffer 206
-  "/home/abhat/emacs/lisp/cc-config.el"
-  "cc-config.el"
+(desktop-create-buffer 208
+  "/home/anbhat/emacs/lisp/go-config.el"
+  "go-config.el"
   'emacs-lisp-mode
+  '(helm-mode)
+  74
+  '(599 nil)
   nil
-  1208
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "controller-tools"
+  'dired-mode
+  '(helm-mode)
+  355
+  '(nil nil)
+  t
+  '("/home/anbhat/gocode/src/github.com/openshift/kubefed-operator/vendor/sigs.k8s.io/controller-tools/")
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "pkg"
+  'dired-mode
+  '(helm-mode)
+  247
+  '(nil nil)
+  t
+  '("/home/anbhat/gocode/src/github.com/openshift/kubefed-operator/vendor/sigs.k8s.io/controller-tools/pkg/")
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/usr/local/go/src/fmt/print.go"
+  "print.go"
+  'go-mode
+  '(helm-mode auto-complete-mode)
+  7959
   '(nil nil)
   nil
   nil
-  '((buffer-display-time 23198 64744 415343 947000) (buffer-file-coding-system . undecided-unix)))
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
 
-(desktop-create-buffer 206
-  "/home/abhat/nuage/vrs/VCA/vrs/lib/libvrs-core/vrs-ofproto-evpn.c"
-  "vrs-ofproto-evpn.c"
-  'c-mode
-  '(abbrev-mode irony-mode)
-  53650
-  '(51509 nil)
+(desktop-create-buffer 208
+  "/home/anbhat/gocode/src/practice/hello.go"
+  "hello.go"
+  'go-mode
+  '(helm-mode auto-complete-mode)
+  49
+  '(49 nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23198 64744 595283 883000) (buffer-file-coding-system . undecided-unix)))
+  '((indent-tabs-mode . t) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1))))
 
-(desktop-create-buffer 206
-  "/home/abhat/nuage/vrs/VCA/vrs/lib/libvrs-core/vrs-ofproto.c"
-  "vrs-ofproto.c"
-  'c-mode
-  '(abbrev-mode irony-mode)
-  215326
-  '(134532 nil)
+(desktop-create-buffer 208
+  "/home/anbhat/gocode/src/github.com/rogpeppe/godef/packages.go"
+  "packages.go"
+  'go-mode
+  '(helm-mode auto-complete-mode)
+  510
+  '(593 nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23198 64744 905194 514000) (buffer-file-coding-system . undecided-unix)))
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (201))))
 
-(desktop-create-buffer 206
-  "/home/abhat/nuage/vrs/VCA/vrs/include/openflow/vrs-ext.h"
-  "vrs-ext.h"
-  'c++-mode
-  '(abbrev-mode irony-mode)
-  25137
-  '(26441 nil)
+(desktop-create-buffer 208
+  "/home/anbhat/gocode/src/golang.org/x/tools/go/packages/packages.go"
+  "packages.go"
+  'go-mode
+  '(helm-mode auto-complete-mode)
+  8046
+  '(3927 nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23198 64745 324320 226000) (buffer-file-coding-system . undecided-unix)))
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1))))
 
-(desktop-create-buffer 206
-  "/home/abhat/nuage/vrs/VCA/vrs/lib/libvrs-core/vrs-util.h"
-  "vrs-util.h"
-  'c++-mode
-  '(abbrev-mode irony-mode)
+(desktop-create-buffer 208
+  nil
+  "packages"
+  'dired-mode
+  '(helm-mode)
+  777
+  '(nil nil)
+  t
+  '("/home/anbhat/gocode/src/golang.org/x/tools/go/packages/")
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "go"
+  'dired-mode
+  '(helm-mode)
+  829
+  '(nil nil)
+  t
+  '("/home/anbhat/gocode/src/golang.org/x/tools/go/")
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "tools"
+  'dired-mode
+  '(helm-mode)
+  953
+  '(nil nil)
+  t
+  '("/home/anbhat/gocode/src/golang.org/x/tools/")
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "x"
+  'dired-mode
+  '(helm-mode)
+  457
+  '(nil nil)
+  t
+  '("/home/anbhat/gocode/src/golang.org/x/")
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "golang.org"
+  'dired-mode
+  '(helm-mode)
+  229
+  '(nil nil)
+  t
+  '("/home/anbhat/gocode/src/golang.org/")
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/anbhat/gocode/src/github.com/rogpeppe/godef/README"
+  "README"
+  'text-mode
+  '(helm-mode)
   1
   '(nil nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23198 64745 493941 162000) (buffer-file-coding-system . undecided-unix)))
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
 
-(desktop-create-buffer 206
-  "/home/abhat/nuage/vrs/VCA/vrs/lib/libvrs-core/vir-events.h"
-  "vir-events.h"
-  'c++-mode
-  '(abbrev-mode irony-mode)
-  1676
+(desktop-create-buffer 208
+  "/home/anbhat/gocode/src/github.com/rogpeppe/godef/go/parser/parser.go"
+  "parser.go"
+  'go-mode
+  '(helm-mode auto-complete-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/anbhat/gocode/src/github.com/rogpeppe/godef/godef_test.go"
+  "godef_test.go"
+  'go-mode
+  '(helm-mode auto-complete-mode)
+  216
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/anbhat/gocode/src/github.com/openshift/kubefed-operator/vendor/sigs.k8s.io/controller-runtime/pkg/runtime/log/log.go"
+  "log.go"
+  'go-mode
+  '(helm-mode auto-complete-mode)
+  2453
   '(1 nil)
   nil
   nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23198 64745 570788 389000) (buffer-file-coding-system . undecided-unix)))
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
 
-(desktop-create-buffer 206
-  "/home/abhat/mesos/src/uri/fetchers/docker.cpp"
-  "docker.cpp"
-  'c++-mode
-  '(abbrev-mode irony-mode)
-  6837
-  '(5425 nil)
+(desktop-create-buffer 208
   nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23198 64745 720753 10000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  nil
-  "mesos"
+  "log"
   'dired-mode
-  nil
-  450
+  '(helm-mode)
+  438
   '(nil nil)
   t
-  '("/home/abhat/mesos/")
-  '((buffer-display-time 23198 64745 753013 204000)))
+  '("/home/anbhat/gocode/src/github.com/openshift/kubefed-operator/vendor/sigs.k8s.io/controller-runtime/pkg/runtime/log/")
+  nil
+  '((mark-ring nil)))
 
-(desktop-create-buffer 206
-  "/home/abhat/nuage/vrs/VCA/vrs/lib/libvrs-vswitchd/bridge.c"
-  "bridge.c"
-  'c-mode
-  '(abbrev-mode irony-mode)
-  10073
-  '(9020 nil)
+(desktop-create-buffer 208
   nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23198 64745 850802 557000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/abhat/nuage/vrs/VCA/vrs/utilities/vrs-lib.in"
-  "vrs-lib.in"
-  'sh-mode
-  nil
-  32938
-  '(1086 nil)
-  nil
-  nil
-  '((buffer-display-time 23198 64746 59108 288000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/abhat/nuage/vrs/VCA/vrs/lib/libvrs-core/vrs-ofproto.h"
-  "vrs-ofproto.h"
-  'c++-mode
-  '(abbrev-mode irony-mode)
-  4036
-  '(4980 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23198 64746 250302 651000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  nil
-  "build"
+  "runtime"
   'dired-mode
-  nil
-  177
+  '(helm-mode)
+  371
   '(nil nil)
   t
-  '("/home/abhat/nuage/vrs/VCA/build/")
-  '((buffer-display-time 23198 64746 364676 403000)))
+  '("/home/anbhat/gocode/src/github.com/openshift/kubefed-operator/vendor/sigs.k8s.io/controller-runtime/pkg/runtime/")
+  nil
+  '((mark-ring nil)))
 
-(desktop-create-buffer 206
-  "/home/abhat/nuage/vrs/VCA/vrs/include/vrs-ofp-util.h"
-  "vrs-ofp-util.h"
-  'c++-mode
-  '(abbrev-mode irony-mode)
-  1
+(desktop-create-buffer 208
+  nil
+  "pkg"
+  'dired-mode
+  '(helm-mode)
+  1286
   '(nil nil)
+  t
+  '("/home/anbhat/gocode/src/github.com/openshift/kubefed-operator/vendor/sigs.k8s.io/controller-runtime/pkg/")
   nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23198 64746 442923 647000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/abhat/nuage/vrs/VCA/vrs/lib/libvrs-core/vrs-ofp-util.c"
-  "vrs-ofp-util.c"
-  'c-mode
-  '(abbrev-mode irony-mode)
-  20049
-  '(20042 nil)
-  nil
-  nil
-  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23198 64746 570545 513000) (buffer-file-coding-system . undecided-unix)))
-
-(desktop-create-buffer 206
-  "/home/abhat/backtrace"
-  "backtrace"
-  'text-mode
-  nil
-  121548
-  '(99742 nil)
-  nil
-  nil
-  '((buffer-display-time 23198 64746 597902 930000) (buffer-file-coding-system . undecided-unix)))
+  '((mark-ring nil)))
 

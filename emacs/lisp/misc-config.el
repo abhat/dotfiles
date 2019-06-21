@@ -33,9 +33,9 @@
 
 (add-hook 'ibuffer-mode-hook (lambda () (ibuffer-switch-to-saved-filter-groups "default")))
 
-;; Set up iswitchb
-(iswitchb-mode 1)
-(setq iswitchb-default-method 'maybe-frame)
+;; Set up ido instead of iswitchb
+(ido-mode 1)
+(setq ido-default-method 'maybe-frame)
 
 ;; Set up tramp
 (setq tramp-default-method "ssh")

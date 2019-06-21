@@ -1,3 +1,4 @@
+
 ;;; ~/.emacs
 
 (require 'cl)
@@ -9,13 +10,21 @@
 (when (< emacs-major-version 24)
   ;; For important compatibility libraries like cl-lib
   (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
+
+
+(global-set-key (kbd "M-x") 'helm-M-x)
+(global-set-key (kbd "C-c s 1") 'helm-git-grep-at-point)
+(global-set-key (kbd "C-c s 2") 'helm-occur)
+(global-set-key (kbd "M-y") 'helm-show-kill-ring)
+(global-set-key (kbd "C-x C-f") 'helm-find-files)
+
 (package-initialize) ;; You might already have this line
 (elpy-enable)
 ;; I keep everything under ~/emacs
-(defvar emacs-root (cond ((eq system-type 'cygwin) "/home/abhat/")
-			 ((eq system-type 'gnu/linux) "/home/abhat/")
-			 ((eq system-type 'linux) "/home/abhat/")
-			 ((eq system-type 'darwin) "/Users/abhat/")
+(defvar emacs-root (cond ((eq system-type 'cygwin) "/home/anbhat/")
+			 ((eq system-type 'gnu/linux) "/home/anbhat/")
+			 ((eq system-type 'linux) "/home/anbhat/")
+			 ((eq system-type 'darwin) "/Users/anbhat/")
 			 (t "c:/home/abhat/"))
   "My home directory -- the root of my personal emacs load-path")
 
@@ -30,7 +39,33 @@
   (add-path "emacs/site-lisp/ruby-mode")	;; http://svn.ruby-lang.org/repos/ruby/trunk/misc/ruby-mode
   (add-path "emacs/site-lisp/speedbar")		;; http://cedet.sourceforge.net/speedbar.shtml
   (add-path "emacs/site-list/yaml-mode")        ;; http://github.com/yoshiki/yaml-mode
+  (add-path ".emacs.d/site-list/elpa/")
   )
+
+
+(setenv "GOPATH" (concat emacs-root "gocode"))
+;this is needed for godef to work
+(setenv "GO111MODULE" "off")
+
+(add-to-list 'load-path (concat (getenv "GOPATH")
+                                "/src/github.com/dougm/goflymake"))
+(add-to-list 'load-path (concat (getenv "GOPATH")
+                                "/src/github.com/nsf/gocode/emacs-company"))
+
+       
+(require 'helm-config)
+(helm-mode 1)
+
+(defun set-exec-path-from-shell-PATH ()
+  (let ((path-from-shell (replace-regexp-in-string
+			  "[ \t\n]*$"
+			  ""
+			  (shell-command-to-string "$SHELL --login -i -c 'echo $PATH'"))))
+    (setenv "PATH" path-from-shell)
+    (setq eshell-path-env path-from-shell) ; for eshell users
+    (setq exec-path (split-string path-from-shell path-separator))))
+
+(when window-system (set-exec-path-from-shell-PATH))
 
 ;; The remainder of my config is in libraries
 (load-library "efuncs")				;; custom functions
@@ -50,6 +85,7 @@
 (load-library "xml-config")			;; XML mode config
 (load-library "xcscope")			;; cscope config
 (load-library "yaml-config")                    ;; YAML config
+(load-library "go-config")                      ;; Go config
 (server-start)					;; start the emacs server running
 
 ;;; end ~/.emacs
@@ -59,7 +95,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(grep-command "grep -nH -i -r ")
- '(package-selected-packages (quote (elpy company-irony-c-headers))))
+ '(package-selected-packages
+   (quote
+    (exec-path-from-shell go-autocomplete magit helm-git-grep helm-company helm-go-package company-go elpy company-irony-c-headers))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

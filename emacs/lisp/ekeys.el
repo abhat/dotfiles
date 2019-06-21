@@ -2,7 +2,7 @@
 
 ;; Remap global keys
 (define-key global-map "\C-h" 'delete-backward-char)
-(define-key global-map "\C-xb" 'iswitchb-buffer)
+(define-key global-map "\C-xb" 'ido-switch-buffer)
 (define-key global-map "\C-x\C-b" 'ibuffer)
 (define-key global-map "\C-x " 'just-one-space)
 (define-key global-map "\M- " 'set-mark-command)
